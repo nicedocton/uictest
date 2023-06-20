@@ -1,0 +1,22 @@
+:root {
+  //base
+  --animation: all 0.3s ease-in-out;
+  --fontFamily: 'Ubuntu', sans-serif;
+  --secondFamily: 'GothamPro', sans-serif;
+
+  //sizes
+  --minWidth: 320px;
+  --maxWidth: 2000px;
+  --maxWidthContainer: 1280px;
+  --md1: calc(var(--maxWidthContainer) + 40px);
+  --md2: 1024.98px;
+  --md3: 767.98px;
+  --md4: 479.98px;
+
+  // colors
+  --light-color: #ffffff;
+  --black: #111111;
+  --bodyBg: #1E1E1E;
+  --gray-text: #C6C6C6;
+  --orange: #FF5B25;
+}

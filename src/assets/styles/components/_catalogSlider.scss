@@ -1,0 +1,41 @@
+.catalogSlider {
+  &:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .slide {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #252525;
+    &__content {
+
+    }
+    &__title {
+      font-family: var(--secondFamily);
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.25rem;
+      line-height: 1.5;
+      color: var(--light-color);
+      a {
+        transition: var(--animation);
+        &:hover {
+          color: var(--orange);
+        }
+      }
+    }
+    &__text {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1.14rem;
+      line-height: 1.5;
+      color: #777777;
+    }
+    &__date {
+      font-weight: 400;
+      font-size: 1.14rem;
+      line-height: 1;
+      color: #C8C8C8;
+    }
+  }
+}

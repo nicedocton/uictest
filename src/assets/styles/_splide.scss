@@ -1,0 +1,62 @@
+.splide {
+  &__arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    background: rgba(255, 91, 37, 0.6);
+    transition: var(--animation);
+    z-index: 2;
+    border-radius: 50px;
+    &:after {
+      content: "";
+      display: block;
+      width: 52px;
+      height: 52px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-image: url("@/assets/img/svg/arrow-right.svg");
+      background-repeat: no-repeat;
+      background-size: 8.74px 17.37px;
+      background-position: center;
+    }
+    svg {
+      display: none;
+    }
+    &:hover {
+      background-color: var(--orange);
+    }
+    &--next {
+      top: 50%;
+      right: -26px;
+    }
+    &--prev {
+      top: 50%;
+      left: -26px;
+      &:after {
+        transform: scale(-1, 1);
+      }
+    }
+  }
+  &__pagination {
+    padding-top: 48px;
+    li {
+      margin: 0 4px!important;
+    }
+    &__page {
+      display: block;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      transition: var(--animation);
+      background-color: #2B2B2B;
+      &.is-active {
+        background-color: var(--orange);
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "fonts";
+@import "vars";
+@import "null";
+@import "splide";
+
+._container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: var(--md1);
+  margin: 0 auto;
+  transition: var(--animation);
+
+  @media (max-width: 767.98px) {
+    padding: 0 16px;
+  }
+}
+
+body {
+  background-color: var(--bodyBg);
+  color: var(--light-color);
+  font-family: var(--fontFamily);
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.page {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex: 1;
+}
