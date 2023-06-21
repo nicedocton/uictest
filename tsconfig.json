@@ -1,4 +1,7 @@
 {
+  "noImplicitAny": false,
+  "allowJs": true,
+  "strict": true,
   "files": [],
   "references": [
     {

@@ -31,34 +31,20 @@
   </div>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
-import '@splidejs/vue-splide/css/core';
+import '@splidejs/vue-splide/css';
 import TheSecondaryTitle from "@/components/UI/TheSecondaryTitle.vue";
-import {defineProps} from "vue/dist/vue";
 import TheTags from "@/components/UI/TheTags.vue";
 
 const props = defineProps({
-  title: {
-    type: String,
-    required: true
-  },
-  link: {
-    type: String,
-    required: false
-  },
-  catalog: {
-    type: Array,
-    required: true
-  }
+  title: { type: String, required: true },
+  link: { type: String, required: true },
+  catalog: { type: Object, required: true }
 })
+
 </script>
 
 <style scoped lang="scss">
 @import "@/assets/styles/components/_catalogSlider";
-</style>
-<style lang="scss">
-.catalogSlider {
-}
-
 </style>

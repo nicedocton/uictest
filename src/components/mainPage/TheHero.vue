@@ -41,7 +41,7 @@
 
 <script setup lang="ts">
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide';
-import '@splidejs/vue-splide/css/core';
+import '@splidejs/vue-splide/css';
 import TheTags from "@/components/UI/TheTags.vue";
 const heroSlides = [
   {

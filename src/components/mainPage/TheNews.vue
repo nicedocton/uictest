@@ -39,7 +39,7 @@
 
 <script lang="ts" setup>
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
-import '@splidejs/vue-splide/css/core';
+import '@splidejs/vue-splide/css';
 import TheMainTitle from "@/components/UI/TheMainTitle.vue"
 import TheIcon from "@/components/UI/TheIcon.vue";
 

@@ -4,9 +4,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import {defineProps} from "vue/dist/vue";
-
+<script setup lang="ts">
 const props = defineProps({
   tagsList: {
     type: Object,

@@ -6,8 +6,6 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps, PropType} from 'vue'
-
 const props = defineProps({
   title: {
     type: String,
@@ -26,6 +24,7 @@ const props = defineProps({
     required: false
   }
 })
+
 </script>
 
 <style scoped lang="scss">

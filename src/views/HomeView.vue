@@ -1,14 +1,10 @@
 <script setup lang="ts">
-import { useLifecycleLogger } from "@/common/hooks/lifecycleLogger.ts";
 import AppLayoutDefault from "@/layouts/AppLayoutDefault.vue";
 import TheHero from "@/components/mainPage/TheHero.vue";
 import TheTrends from "@/components/mainPage/TheTrends.vue";
 import TheCatalogSlider from "@/components/TheCatalogSlider.vue";
 import TheNews from "@/components/mainPage/TheNews.vue";
 import TheEvents from "@/components/mainPage/TheEvents.vue";
-
-const name = "Main one";
-useLifecycleLogger({ name });
 
 const catalogList = [
   {

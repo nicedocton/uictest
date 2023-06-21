@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@antik-web/vue-splide": "^0.6.19",
     "@splidejs/vue-splide": "^0.6.12",
     "pinia": "^2.1.3",
     "vue": "^3.3.4",

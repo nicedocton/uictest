@@ -5,8 +5,7 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-import {defineProps} from "vue/dist/vue";
+<script setup lang="ts">
 import TheIcon from "@/components/UI/TheIcon.vue";
 
 const props = defineProps({
