@@ -1,6 +1,6 @@
 <template>
   <header class="header fixed top-0 left-0 w-full">
-    <div class="header__container _container mb-20 flex justify-between items-center gap-5 pt-5 pb-5">
+    <div class="header__container _container flex justify-between items-center gap-5 pt-5 pb-5">
       <div class="header__logo">
         <a href="#">
           <img src="@/assets/img/svg/logo.svg" alt="Interest" />

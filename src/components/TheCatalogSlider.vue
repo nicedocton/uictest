@@ -34,6 +34,7 @@
 <script setup lang="ts">
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import '@splidejs/vue-splide/css';
+import '@/assets/styles/_splide.scss';
 import TheSecondaryTitle from "@/components/UI/TheSecondaryTitle.vue";
 import TheTags from "@/components/UI/TheTags.vue";
 

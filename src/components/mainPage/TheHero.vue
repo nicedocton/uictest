@@ -42,6 +42,7 @@
 <script setup lang="ts">
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/vue-splide';
 import '@splidejs/vue-splide/css';
+import '@/assets/styles/_splide.scss';
 import TheTags from "@/components/UI/TheTags.vue";
 const heroSlides = [
   {
@@ -78,10 +79,12 @@ const heroSlides = [
 <style lang="scss">
 .hero__slider {
   .splide {
+    position: relative;
     &__track {
       overflow: visible;
     }
     &__arrow {
+      transform: translateY(0%);
       display: block;
       content: "";
       width: 100%;

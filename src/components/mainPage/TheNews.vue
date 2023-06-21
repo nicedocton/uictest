@@ -40,6 +40,7 @@
 <script lang="ts" setup>
 import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import '@splidejs/vue-splide/css';
+import '@/assets/styles/_splide.scss';
 import TheMainTitle from "@/components/UI/TheMainTitle.vue"
 import TheIcon from "@/components/UI/TheIcon.vue";
 
@@ -64,5 +65,4 @@ const newsSlides = [
 
 <style scoped lang="scss">
 @import "@/assets/styles/mainPage/_news";
-
 </style>
