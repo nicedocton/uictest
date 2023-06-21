@@ -36,7 +36,7 @@ import TheTags from "@/components/UI/TheTags.vue";
 
 const eventsList = [
   {
-    image: "../public/events/1.jpg",
+    image: "events/1.jpg",
     title: "ICDE 2021: 15th International Conference on Education and",
     tags: ["CONFERENCE"],
     time: "30 minut qoldi",
@@ -45,7 +45,7 @@ const eventsList = [
     isFree: true
   },
   {
-    image: "../public/events/2.jpg",
+    image: "events/2.jpg",
     title: "Asia Pacific Conference on Sustainable Development",
     tags: ["MEETUP"],
     time: "30 Aprel, 2021",
@@ -53,7 +53,7 @@ const eventsList = [
     isFree: true
   },
   {
-    image: "../public/events/3.jpg",
+    image: "events/3.jpg",
     title: "Innovations in Learning and Technology for the Workplace",
     tags: ["FORUM"],
     time: "1 kun qoldi",
@@ -61,7 +61,7 @@ const eventsList = [
     isFree: true
   },
   {
-    image: "../public/events/4.jpg",
+    image: "events/4.jpg",
     title: "Software and mechanical engeenring meetup Moscow #10",
     tags: ["TRAINING"],
     time: "1 May, 2021",

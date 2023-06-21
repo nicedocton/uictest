@@ -48,17 +48,17 @@ const newsSlides = [
   {
     title: 'Samsung Develops New 5G Radio Technology for Efficient 5G Deployments',
     text: 'New Samsung technology doubles bandwidth support of its mid-band portfolio, helping operators minimize hardware needs and simplify 5G rollouts. People who are good with money look for quality over quantity',
-    image: '../public/news/1.jpg'
+    image: 'news/1.jpg'
   },
   {
     title: 'An Eckhart Tolle Quote That Relaxes My Entire Being',
     text: 'People who are good with money look for quality over quantity, and don’t make purchases that will derail their money goals later. Dependency Confusion and Misconception',
-    image: '../public/news/1.jpg'
+    image: 'news/1.jpg'
   },
   {
     title: 'Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other ',
     text: 'People who are good with money look for quality over quantity, and don’t make purchases that will derail their money goals later. Dependency Confusion and Misconception',
-    image: '../public/news/1.jpg'
+    image: 'news/1.jpg'
   }
 ]
 </script>

@@ -51,7 +51,7 @@ const heroSlides = [
     date: 'April 5',
     time: 6,
     tags: ['Texnologiya', 'Biznes'],
-    image: '../public/slider/1.jpg'
+    image: 'slider/1.jpg'
   },
   {
     title: 'An Eckhart Tolle Quote That Relaxes My Entire Being',
@@ -59,7 +59,7 @@ const heroSlides = [
     date: 'April 5',
     time: 4,
     tags: ['Sohafiy', 'Biznes'],
-    image: '../public/slider/2.jpg'
+    image: 'slider/2.jpg'
   },
   {
     title: 'Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other ',
@@ -67,7 +67,7 @@ const heroSlides = [
     date: 'April 5',
     time: 5,
     tags: ['Texnologiya', 'Grandlar'],
-    image: '../public/slider/3.jpg'
+    image: 'slider/3.jpg'
   }
 ]
 </script>

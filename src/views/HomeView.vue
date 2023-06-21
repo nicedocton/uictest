@@ -17,7 +17,7 @@ const catalogList = [
         date: 'April 5',
         time: 6,
         tags: ['Texnologiya', 'Biznes'],
-        image: '../public/catalog/1.jpg'
+        image: 'catalog/1.jpg'
       },
       {
         title: 'I Tried Emailing Like a Man — And It Worked',
@@ -25,7 +25,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/2.jpg'
+        image: 'catalog/2.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -33,7 +33,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/3.jpg'
+        image: 'catalog/3.jpg'
       },
       {
         title: 'The great bicycle boom of 2020',
@@ -41,7 +41,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/4.jpg'
+        image: 'catalog/4.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -49,7 +49,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/5.jpg'
+        image: 'catalog/5.jpg'
       }
     ]
   },
@@ -63,7 +63,7 @@ const catalogList = [
         date: 'April 5',
         time: 6,
         tags: ['Texnologiya', 'Biznes'],
-        image: '../public/catalog/6.jpg'
+        image: 'catalog/6.jpg'
       },
       {
         title: 'I Tried Emailing Like a Man — And It Worked',
@@ -71,7 +71,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/7.jpg'
+        image: 'catalog/7.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -79,7 +79,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/8.jpg'
+        image: 'catalog/8.jpg'
       },
       {
         title: 'The great bicycle boom of 2020',
@@ -87,7 +87,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/1.jpg'
+        image: 'catalog/1.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -95,7 +95,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/2.jpg'
+        image: 'catalog/2.jpg'
       }
     ]
   },
@@ -109,7 +109,7 @@ const catalogList = [
         date: 'April 5',
         time: 6,
         tags: ['Texnologiya', 'Biznes'],
-        image: '../public/catalog/3.jpg'
+        image: 'catalog/3.jpg'
       },
       {
         title: 'I Tried Emailing Like a Man — And It Worked',
@@ -117,7 +117,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/4.jpg'
+        image: 'catalog/4.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -125,7 +125,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/5.jpg'
+        image: 'catalog/5.jpg'
       },
       {
         title: 'The great bicycle boom of 2020',
@@ -133,7 +133,7 @@ const catalogList = [
         date: 'April 5',
         time: 4,
         tags: ['Sohafiy', 'Biznes'],
-        image: '../public/catalog/6.jpg'
+        image: 'catalog/6.jpg'
       },
       {
         title: 'Do This Now If You Want To Lose Weight Fast',
@@ -141,7 +141,7 @@ const catalogList = [
         date: 'April 5',
         time: 5,
         tags: ['Texnologiya', 'Grandlar'],
-        image: '../public/catalog/7.jpg'
+        image: 'catalog/7.jpg'
       }
     ]
   }

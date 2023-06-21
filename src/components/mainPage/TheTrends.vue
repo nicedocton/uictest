@@ -57,7 +57,7 @@ const mainTrend = {
   date: 'April 5',
   time: 6,
   tags: ['Texnologiya', 'Biznes'],
-  image: '../public/trends/1.jpg'
+  image: 'trends/1.jpg'
 };
 
 const trendsList = [
@@ -67,7 +67,7 @@ const trendsList = [
     date: 'April 5',
     time: 4,
     tags: ['Sohafiy', 'Biznes'],
-    image: '../public/trends/2.jpg'
+    image: 'trends/2.jpg'
   },
   {
     title: 'Dependency Confusion: How I Hacked Into Apple, Microsoft and Dozens of Other ',
@@ -75,7 +75,7 @@ const trendsList = [
     date: 'April 5',
     time: 5,
     tags: ['Texnologiya', 'Grandlar'],
-    image: '../public/trends/3.jpg'
+    image: 'trends/3.jpg'
   },
   {
     title: '6 UX Design Portfolio Builders You Should Try [From Low Effort...',
@@ -83,7 +83,7 @@ const trendsList = [
     date: 'April 5',
     time: 5,
     tags: ['Texnologiya', 'Grandlar'],
-    image: '../public/trends/4.jpg'
+    image: 'trends/4.jpg'
   },
   {
     title: 'An Eckhart Tolle Quote That Relaxes My Entire Being',
@@ -91,7 +91,7 @@ const trendsList = [
     date: 'April 5',
     time: 4,
     tags: ['Sohafiy', 'Biznes'],
-    image: '../public/trends/5.jpg'
+    image: 'trends/5.jpg'
   }
 ]
 
